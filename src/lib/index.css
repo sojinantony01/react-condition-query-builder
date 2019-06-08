@@ -1,0 +1,391 @@
+.condition-group-box {
+    border: 1px solid #B8C7DD;
+    margin: 4px;
+    padding: 10px;
+    position: relative;
+}
+.condition-group-box label {
+    color: #B8C7DD;
+}
+
+.condition-modal {
+    width: 95% !important;
+    top:35px !important;
+    padding-bottom: 0px !important;
+}
+.condition-modal .ant-modal-body {
+    overflow-x: auto;
+    height: calc(100vh - 166px)
+}
+.card_condition_more {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 100px;
+    background-color: #576982;
+    box-shadow: 0px 0px 4px 0px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+.card_condition_more_group {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    width: 100px;
+    background-color: #576982;
+    box-shadow: 0px 0px 4px 0px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+.card_condition_more_condition {
+    position: absolute;
+    top: 13px;
+    right: 39px;
+    width: 100px;
+    background-color: #576982;
+    box-shadow: 0px 0px 4px 0px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+.card-condition-btn {
+    width: 100%;
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+    color: white !important;
+}
+.card-condition-btn:hover {
+    background-color: white !important;
+    color: #1C2433 !important;
+}
+.width_select_condition .ant-select {
+    width: 170px;
+}
+.width_select_condition input {
+    width: 135px;
+}
+
+
+.display-webkit-box {
+    display: -webkit-box;
+}
+.width_select_condition {
+    margin-left: 9px;
+}
+
+
+.condition-box-active {
+    background-color:#DAE8F7 !important;
+    color: #1C2433;
+}
+
+.conditional_popup {
+    margin:  5px 10px 5px 0px;
+}
+.condition_buttons {
+    background-color: #2e3344 !important;
+    color: white !important;
+    border: 1px solid transparent !important;
+}
+.condition_buttons:hover {
+    background-color: #464c5f !important;
+    
+    
+}
+.clear_button {
+    color: black;
+    text-decoration: underline;
+}
+.create_condition_col {
+    
+    padding-top: 10px;
+}
+.create_condition_col::-webkit-scrollbar {
+    display: none;
+}
+.condition_group_box_more {
+    position: absolute;
+    top: 0;
+    right: -11px;
+    color: #0c0c0c;
+}
+.condition-modal .ant-modal-header {
+    background-color: #1C2433 !important;
+    border: none !important;
+   
+}
+.condition-modal .ant-modal-title {
+    color: white !important;
+}
+.condition-modal .ant-modal-close-x {
+    color: white !important;
+}
+.condition-modal .ant-modal-body {
+    padding: 0px 0px 0px 0px !important;
+}
+.ant-modal-body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.edit_condition_section {
+   
+    padding-left: 15px;
+}
+.line_height_36 {
+    line-height: 36px;
+}
+.fuction_items {
+    display: -webkit-box;
+    position: relative;
+    padding: 6px 0px 6px 0px;
+    border-radius: 4px;
+    background-color: #AFC8EF;
+    min-height: 48px;
+
+}
+.opretion_case {
+    padding: 6px 12px 6px 0px;
+    border-radius: 4px;
+    background-color: #7894C1;
+    min-height: 48px;
+    position: relative;
+}
+.align_items_center {
+    align-items: center;
+}
+
+
+.background_edit_condition {
+    background-color: #E1E9F4;
+    padding: 5px 10px 30px 0px;
+    border-radius: 8px;
+}
+.background_edit_condition_add {
+    background-color: #E1E9F4;
+    padding: 15px 10px 15px 0px;
+    border-radius: 8px;
+}
+.fuction_items .ant-select-selection.ant-select-selection--single {
+    background-color: #94AEDD;
+    border: none !important;
+    border-radius: 5px;
+    
+
+}
+.fuction_items input {
+    background-color: #94AEDD;
+    border-radius: 5px;
+
+}
+.fuction_items input:first-child {
+    margin-right: 15px;
+}
+.edit_condition_section .ant-select-selection {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.opretion_case .ant-select-selection {
+    background-color: #AEC5E5;
+    border: none;
+    border-radius: 5px;
+
+}
+.opretion_case input {
+    background-color: #AEC5E5;
+    border: none;
+    border-radius: 5px;
+}
+.delete_icon_edit {
+    color: #AEC5E5;
+}
+
+.delete_icon_edit-fuution {
+    color:#7D9ED3;
+}
+.delete_icon_edit-fuution svg:hover {
+    color: #2668d1;
+}
+.delete_icon_edit svg:hover {
+    color: rgb(229, 226, 226);
+}
+.anticon-delete svg:hover {
+    color: red;
+}
+.anticon-edit svg:hover {
+    color: blue;
+}
+.edit_condition_label {
+    font-weight: normal !important;
+    color:#4A7AA5;
+    font-size: 12px;
+}
+.pop-up-close {
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    background-color: #DAE8F7 ;
+    color: #1C2433;
+    border-radius: 50%;
+    position: absolute;
+    top:-6px;
+    right: -4px;
+    font-size: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+.edit_condition_value_btn .ant-radio-group label:first-child {
+    background-color: #1C2433;
+    color: white;
+}
+.edit_condition_value_btn .ant-radio-group label:last-child {
+    background-color: #57677A;
+    color: #D3DEE7;
+}
+
+.edit_condition_column_btn .ant-radio-group label:first-child {
+    background-color: #57677A;
+    color: #D3DEE7;
+}
+.edit_condition_column_btn .ant-radio-group label:last-child {
+    background-color: #1C2433;
+    color: white;
+}
+
+.background_edit_condition  .ant-select-selection__placeholder, .ant-select-search__field__placeholder{
+    color: black !important;
+    font-family: 'Proxima ', sans-serif !important;
+    font-size: 9px !important;
+}
+
+.ant-select-selection__placeholder {
+    color: black;
+}
+
+.ant-d-color .ant-select-selection {
+    background-color: white !important;
+}
+
+#lhs .ant-select-selection {
+    background-color: white;
+}
+
+.value_invalid {
+    position: absolute;
+    top: 5px;
+    left: 116px;
+    font-size: 12px;
+}
+@media only screen and (max-width: 1100px) { 
+    .width_select_condition input {
+        width: 120px;
+    }
+    .width_select_condition .ant-select {
+        width: 120px;
+    }
+}
+.condition-modal .ant-modal-footer {
+    background-color: #1C2433;
+    color: white;
+    border: none !important;
+}
+.background_edit_condition .ant-select-selection {
+    padding-left: 10px;
+}
+.background_edit_condition .ant-select-arrow {
+    height: 100%;
+    top: 20%;
+    right: 0px;
+    background-color: #D4E3F9;
+    width: 30px;
+}
+.background_edit_condition .ant-select-arrow > * {
+    line-height: 3;
+    height: 100%;
+    font-weight: bolder;
+}
+.background_edit_condition .ant-select-selection__rendered {
+    margin: 0px !important;
+}
+.invalid_condition {
+    position: absolute;
+    top: 0px;
+    right: 54px;
+    color: #e64d4d;
+    font-size: 12px;
+}
+.condition_edit_invalid {
+    position: absolute;
+    top: -15px;
+    right: 9px;
+    font-size: 12px;
+}
+.rhs_invalid {
+    position: absolute;
+    top: -17px;
+    left: 107px;
+    font-size: 12px;
+}
+
+.min-width-rhs-input {
+    min-width: 172px;
+}
+
+.zigma_icon {
+    width: 40px;
+    padding: 0px 5px 0px 5px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 31px;
+    cursor: pointer;
+}
+.zigma_icon svg {
+    width: 11px;
+}
+.zigma_icon_selected {
+    background-color: #2668d1;
+}
+.zigma_icon_default {
+    background-color: skyblue;
+}
+.rhs_switch {
+    bottom: -26px;
+    left: 54px;
+    position: absolute;
+    
+}
+.rhs_switch .ant-radio-button-wrapper {
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    margin-top: 6px;
+    font-size: 11px;
+    padding: 2px 5px;
+    color: white !important;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top-width: 1.02px;
+    border-left: 0;
+    cursor: pointer;
+    -webkit-transition: color 0.3s, background 0.3s, border-color 0.3s;
+    -o-transition: color 0.3s, background 0.3s, border-color 0.3s;
+    transition: color 0.3s, background 0.3s, border-color 0.3s;
+}
+.rhs_switch .ant-radio-button-wrapper .ant-radio-button span {
+    color: white !important;
+    font-size: 9px !important;
+}
+ .ant-radio-group .ant-radio-button-wrapper:nth-child(1) {
+    margin-left: 30px;
+}
+.condition_more_icon {
+    position: absolute;
+    top: 5px;
+    right: 34px;
+}
