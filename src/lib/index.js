@@ -1,15 +1,7 @@
 import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import { withRouter } from 'react-router';
-import locations from '../../../../../../../router/locations'
-import I18,{i18Get} from '../../../../../../../i18';
-import utils from '../../../../../../../utils/utils';
-import {Modal, Button, Icon, Popconfirm} from 'antd';
-// import Condition  from './condition'
+import I18, {i18Get} from './i18';
+import { Button, Icon, Popconfirm} from 'antd';
 import ConditionEdit from './edit-conditions'
-import workflowAction from '../../../../../../../actions/workflow';
 import validateConditions from './validate-condition'
 import './index.css'
 
@@ -187,8 +179,8 @@ class Conditions extends Component {
         prevState.invalidDepth = false;
         let tempData = {}
         if(!data.values || !data.values.length || data.op !== op) {
-            if(this.findDepth(prevState.conditions.values, 1) >= 4 ) {
-                utils.showError(i18Get('Max depth reached', utils.getLanguage()))
+            if(this.findDepth(prevState.conditions.values, 1) >= 6 ) {
+                console.log('Max depth reached');
                 return
             }
             tempData.values = []
@@ -250,14 +242,5 @@ class Conditions extends Component {
     }
 }   
 
-Conditions.propTypes = {
-  dispatch: PropTypes.func.isRequired,
-  history: PropTypes.object.isRequired,
-};
 
-export default withRouter(connect(store => ({ 
-    user: store.user,
-    actions: store.actions,
-    translations :store.translations,
-    workflow : store.workflow
-}))(Conditions));
+export default Conditions;

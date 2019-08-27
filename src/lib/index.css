@@ -61,10 +61,10 @@
     color: #1C2433 !important;
 }
 .width_select_condition .ant-select {
-    width: 170px;
+    width: 190px;
 }
 .width_select_condition input {
-    width: 135px;
+    width: 190px;
 }
 
 
@@ -282,10 +282,16 @@
 }
 @media only screen and (max-width: 1100px) { 
     .width_select_condition input {
-        width: 120px;
+        width: 160px;
     }
     .width_select_condition .ant-select {
-        width: 120px;
+        width: 160px;
+    }
+    .rhs_switch {
+        bottom: -26px !important;
+        left: 52px !important;
+        position: absolute;
+        
     }
 }
 .condition-modal .ant-modal-footer {
@@ -355,7 +361,7 @@
 }
 .rhs_switch {
     bottom: -26px;
-    left: 54px;
+    left: 74px;
     position: absolute;
     
 }
@@ -388,4 +394,8 @@
     position: absolute;
     top: 5px;
     right: 34px;
+}
+
+.rhs_datepicker input{
+    width: 100% ;
 }

@@ -53,4 +53,4 @@ export default App;
 | equalRangeText | invalid message in equal time periods | Time cannot be equal | 
 ## Acknowledgments
 *antd
-*moment
+
